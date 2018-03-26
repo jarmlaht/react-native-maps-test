@@ -13,8 +13,8 @@ export default class HomeScreen extends React.Component {
         </View>
         <View style={{paddingBottom: 10}}>
             <Button
-                title="Camera screen"
-                onPress={() => this.props.navigation.navigate('CameraScreen')}/>
+                title="Barcode scanner screen"
+                onPress={() => this.props.navigation.navigate('BarCodeScannerScreen')}/>
         </View>
       </View>
     );

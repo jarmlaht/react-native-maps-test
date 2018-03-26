@@ -3,7 +3,7 @@ import { Text, View } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 import MapScreen from './screens/MapScreen'
 import HomeScreen from './screens/HomeScreen'
-import CameraScreen from './screens/CameraScreen'
+import BarCodeScannerScreen from './screens/BarCodeScannerScreen'
 
 class App extends React.Component {
   render() {
@@ -25,8 +25,8 @@ export default StackNavigator(
     MapScreen: {
       screen: MapScreen,
     },
-    CameraScreen: {
-      screen: CameraScreen,
+    BarCodeScannerScreen: {
+      screen: BarCodeScannerScreen,
     },
   },
   {
