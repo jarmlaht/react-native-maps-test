@@ -49,9 +49,7 @@ export default class MapScreen extends React.Component {
   focusMap(markers, animated) {
     const identifiers = markers.map(m => m.identifier)
     console.log(identifiers)
-    //console.log(this.map)
     this.map.fitToSuppliedMarkers(identifiers, animated);
-    debugger
   }
 
   render() {
